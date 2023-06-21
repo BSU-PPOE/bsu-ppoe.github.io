@@ -1,4 +1,4 @@
-# bsu-ppoe.github.io
+# BSU Observatory
 
 This is the main repository for GitHub pages.
 
