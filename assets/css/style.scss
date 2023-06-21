@@ -6,6 +6,6 @@
 main { min-height: 720px; }
 
 .site-header { 
-  border-top: none;
-  border-bottom: 5px solid #89191f; 
+  border-top: none !important;
+  border-bottom: 5px solid #89191f !important; 
 }
