@@ -1,3 +1,5 @@
+# BSU Observatory
+
 This is the main repository for GitHub pages. You can edit text here in the README.md file and the content of this file is included in the website home page.
 
 ## Helpful Links
