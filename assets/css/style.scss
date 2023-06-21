@@ -1,6 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "{% raw %}{{ site.theme }}{% endraw %}";
 
 body { background-color: green !important; }
