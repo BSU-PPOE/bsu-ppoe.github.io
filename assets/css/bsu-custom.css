@@ -6,4 +6,5 @@ main { min-height: 720px; }
 .site-footer {
   border-top: 1px solid #89191f;
 }
+#bsu-logo-container { display: inline; }
 #bsu-logo { max-height: 50px; }
