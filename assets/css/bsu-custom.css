@@ -3,9 +3,13 @@ main { min-height: 720px; }
   border-top: none;
   border-bottom: 5px solid #89191f; 
 }
+#bsu-logo-container { display: inline; }
+#bsu-logo { max-height: 50px; }
+
 .site-footer {
   border-top: 1px solid #89191f;
   background-color: #89191f;
 }
-#bsu-logo-container { display: inline; }
-#bsu-logo { max-height: 50px; }
+.footer-col-wrapper {
+  color: #fff;
+}
