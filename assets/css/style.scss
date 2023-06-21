@@ -2,10 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-main { min-height: 720px; }
-
-.site-header { 
-  border-top: none !important;
-  border-bottom: 5px solid #89191f !important; 
-}
