@@ -1,4 +1,5 @@
 main { min-height: 720px; }
+.wrapper { max-width: calc(70vw - (30px * 2)) };
 .site-header { 
   border-top: none;
   border-bottom: 5px solid #89191f; 
