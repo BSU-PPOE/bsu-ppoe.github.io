@@ -3,7 +3,8 @@
 <p>Here is a test .html page that includes a search form</p>
 
 <form method="GET" action="https://github.com/search">
-  <input type="text" name="q" value="org:BSU-PPOE" onkeydown="if(this.selectionStart<=12&&(event.key=='Backspace'||event.key=='ArrowLeft'||event.key=='Delete'))event.preventDefault()" />
+  <input type="text" name="q" value="org:BSU-PPOE" style="font-weight: bold;" 
+    onkeydown="if(this.selectionStart<=12&&(event.key=='Backspace'||event.key=='ArrowLeft'||event.key=='Delete'))event.preventDefault()" />
   <input type="hidden" name="type" value="code" />
   <input type="submit" />
 </form>
