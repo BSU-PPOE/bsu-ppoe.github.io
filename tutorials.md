@@ -1,5 +1,5 @@
 ---
-layout: tutorial
-title: "TUTORIAL"
-permalink: /tutorial
+layout: tutorials
+title: "TUTORIALS"
+permalink: /tutorials
 ---
