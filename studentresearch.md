@@ -1,5 +1,5 @@
 ---
-layout: studentresearch.
+layout: studentresearch
 title: "STUDENTRESEARCH"
 permalink: /studentresearch
 ---
