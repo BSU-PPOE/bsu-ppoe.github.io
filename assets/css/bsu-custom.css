@@ -14,21 +14,3 @@ main { min-height: 720px; }
 .footer-col-wrapper {
   color: #fff;
 }
-/* Force header logo left-alignment on all pages */
-.site-header .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#bsu-logo-container {
-  flex: 0 0 auto;
-}
-
-.site-nav {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
