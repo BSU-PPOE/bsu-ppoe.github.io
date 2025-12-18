@@ -1,18 +1,106 @@
-<h1 class="page-heading" style = "font-size: 15; font-weight: bold" >BSU Observatory</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BSU Observatory</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    padding: 50px 20px;
+    background: #FFFFFF;
+  }
 
-<h2>Our research database is currently under construction. Stay tuned as we upload more! </h2>
+  h1.page-heading {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+  }
 
-<p>Our data consist of images in standard astronomy FITS format (both raw and calibrated, plus calibration files for use with raw data).  Additional photometric information will become available for each set as we generate it on our end. Make sure to check back periodically as we upload more of our past data.</p>
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: #000000;
+  }
 
-<p style = "margin-bottom: 0"> Follow the link below to browse our raw data <p>
-<a href="data.html" style="color:#1A73E8;">DATA</a>
+  p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #000000;
+  }
 
-<p style = "margin-bottom: 0"> Follow the link below to see Find helpful tutorials of how to use our data <p>
-<a href="tutorials.html" style="color:#1A73E8;">Tutorials</a>
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
 
-<p style = "margin-bottom: 0"> Our data images are useful for art! check out our students work by browsing our  <p>
-<a href="gallery.html" style="color:#1A73E8;">Astrophotography Gallery</a>
+  .cosmic-button {
+    display: block;
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #B21F2D; /* logo red */
+    border: 2px solid #B21F2D;
+    box-shadow: 0 4px 10px rgba(178,31,45,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
 
-<p style = "margin-bottom: 0"> check out our students research by browsing our  <p>
-<a href="student.html" style="color:#1A73E8;">Student Research Gallery</a>
+  .cosmic-button:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 6px 16px rgba(178,31,45,0.5);
+  }
 
+  .cosmic-button p {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 6px;
+    color: #F5C6C7; /* lighter red */
+  }
+</style>
+</head>
+<body>
+
+<h1 class="page-heading">BSU Observatory</h1>
+<h2>Our research database is currently under construction. Stay tuned as we upload more!</h2>
+
+<p>
+  Our data consist of images in standard astronomy FITS format (both raw and calibrated,
+  plus calibration files for use with raw data). Additional photometric information will
+  become available for each set as we generate it. Check back periodically as we upload more.
+</p>
+
+<div class="button-grid">
+  <a href="data.html" class="cosmic-button">
+    Browse Raw Data
+    <p>Explore our FITS archives</p>
+  </a>
+
+  <a href="tutorials.html" class="cosmic-button">
+    Tutorials
+    <p>Learn how to use our astronomical data</p>
+  </a>
+
+  <a href="gallery.html" class="cosmic-button">
+    Astrophotography Gallery
+    <p>See student-created cosmic art</p>
+  </a>
+
+  <a href="student.html" class="cosmic-button">
+    Student Research
+    <p>Discover research projects using our data</p>
+  </a>
+</div>
+
+</body>
+</html>
